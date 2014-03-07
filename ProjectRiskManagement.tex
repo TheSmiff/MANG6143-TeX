@@ -1,0 +1,59 @@
+% ----------------------------------------------------------------
+% MANG2023 Effective Business Performance Assignment.tex
+% ---------------------------------------------------------------- 
+\documentclass{ecsarticle}     % Use the Article Style
+\usepackage{natbib}            % Use Natbib style for the refs.
+\graphicspath{./Figures/}
+\usepackage{appendix}
+\usepackage{color}
+\usepackage{ transparent}
+\usepackage{lipsum}
+\def\citeapos#1{\citeauthor{#1}'s (\citeyear{#1})}
+\removecolourlinks    % Uncomment this command to remove colour from any links
+% ----------------------------------------------------------------
+\begin{document}
+\frontmatter
+\title      {MANG6143 Project Risk Management}
+\authors    {\texorpdfstring
+             {\href{mailto:tjs1g10@ecs.soton.ac.uk}{Thomas J. Smith}}
+             {Thomas J.Smith}
+            }
+\purpose  {}
+\company       {MEng Electronic Engineering with Power Systems}
+\addresses  {\purname\\\coname\\\univname}
+\date       {\today}
+\subject    {Performance Uncertainty Management Processes - Overview and Appraisal}
+\keywords   {}
+\maketitle
+\begin{abstract}
+\lipsum[1]
+\end{abstract}
+
+
+% -----------------------
+% lstpatch.sty
+% -----------------------
+% lstpatch cannot be distributed with these files. I believe it is only needed if the
+% \lstlistoflistings is used. So this has been turned off by default. Re-add if required:
+% \usepackage{lstpatch}
+% \lstlistoflistings
+% You will need to download lstpatch, possibly from:
+% http://web.mit.edu/texsrc/source/latex/listings/lstpatch.sty
+% -----------------------
+
+\mainmatter
+\input{Pt1}
+\input{Pt2}
+\input{Pt3}
+
+\backmatter
+\bibliographystyle{apalike}
+\bibliography{ECS}
+
+
+\appendix
+%\appendixpage
+%\appendixheaderon
+
+
+\end{document}
