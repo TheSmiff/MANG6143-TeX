@@ -9,6 +9,9 @@
 \usepackage{color}
 \usepackage{ transparent}
 \usepackage{lipsum}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multirow}
+\newcommand{\inote}[1] {\todo[inline]{#1}}
 \def\citeapos#1{\citeauthor{#1}'s (\citeyear{#1})}
 \removecolourlinks    % Uncomment this command to remove colour from any links
 % ----------------------------------------------------------------
@@ -23,7 +26,7 @@
 \company       {MEng Electronic Engineering with Power Systems}
 \addresses  {\purname\\\coname\\\univname}
 \date       {\today}
-\subject    {Performance Uncertainty Management Processes - Overview and Appraisal}
+\subject    {Performance Uncertainty Management Processes - Overview and Appraisal\inote{Ckeck title reflects document}}
 \keywords   {}
 \maketitle
 \begin{abstract}
