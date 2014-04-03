@@ -10,7 +10,7 @@
 The phrasing ``uncertainty and underlying complexity management'' has been specifically selected as the title of this section to contrast with the risk management title of the course as a whole.
 Traditional views of risk management offer a limited scope and an incomplete picture.
 Often the focus is event uncertainty reflecting the standard dictionary definition of risk: \textit{a hazard, chance of bad consequences, exposure to mischance} \citep{OED}.
-This approach does not address the whole of the uncertainty effecting the project, and in the worst case can lead to failed delivery of project objectives.
+This approach does not address the whole of the uncertainty affecting the project, and in the worst case can lead to failed delivery of project objectives.
 The Performance Uncertainty Management Process (PUMP) framework encourages departure from the event-centric approach advocated by best practice, to consider all corporate, operational and planning sources of uncertainty.
 This expanded perspective allows the capture of ambiguity uncertainty, inherent variability, systematic uncertainty, as well as event uncertainty.
 Utilising the PUMP framework shifts the focus of risk management towards the achievement of opportunity efficiency and risk efficiency, through the vehicle of uncertainty management.
@@ -53,15 +53,16 @@ This paper is concerned with PUMPs tailored to this lifecycle stage.
 
 
 
-\subsection{PUMP Process Overview}
+\subsection{PUMP Overview}
 %Explain concisely in your own words what you believe are the key overall features of a PUMP approach to project risk management in the execution and delivery strategy shaping phase of a project’s lifecycle. Compare these features with the PMI PIMBOK approach or any other form of common practice you are familiar with if you find this helpful, but focus on the PUMP approach. Use examples to illustrate your discussion if you wish, but concentrate on concepts and principles. This will be a largely descriptive summary of your interpretation of the lectures and associated reading. It will demonstrate your grasp of the central core of the unit’s material as a whole, and should be approached with a view to demonstrating this understanding..
 
 The PUMP approach was developed through the assimilation of other industrial risk processes, building upon the best practice approaches from project management bodies.
-The SCERT (Synergistic Contingency Evaluation and Review Technique) was developed by Chris Chapman in conjunction with British Petroleum and Acres International management consultants in 1976.
-It was first developed for the Magnus offshore oil project in the North Sea. 
-The process has now been refined and assimilated into a complete framework suitable for a variety of clarity level approaches.
+The process was developed by Acres International Management Services for BP and first implemented on the Magnus offshore North Sea project in 1976. 
+\citet{SCERT} published the process as SCERT (Synergistic Contingency Evaluation and Review Technique) and the technique has since been used in a variety of high profile projects for BP, National Power and the Highways Agency.
+The process has been refined and assimilated into a complete framework suitable for a variety of clarity requirements.
 
-The generic PUMP process is a seven stage iterative cycle as shown in figure \ref{Figure:Project_Lifecycle}. 
+
+The PUMP process is a seven stage iterative cycle as shown in figure \ref{Figure:Project_Lifecycle}. 
 A linear `right first time' approach is not a clarity efficient methodology.
 A version of Pareto's principle, sometimes called the 80:20 rule \citep{Pareto1992}, empirically states that 20\% of the issues causes 80\% of the problems. 
 The first iteration of the PUMP is a high level sweep to identify the key areas of concern.
@@ -83,18 +84,17 @@ This allows the achievement of clarity efficiency, by minimising time spent on u
 \end{figure}
 
 The initiating phase of the generic PUMP is the \textbf{define} phase.
-
-This phase defines and develops an understanding of the project in a bid to prepare to ask the right questions in subsequent phases.
+This phase defines and develops an understanding of the project as a basis to ask the right questions in subsequent phases.
 It features high level context capture and approach development at a strategic level.
 There are two key activities in this phase; consolidate and elaborate as shown in figure \ref{Figure:Define}.
 A useful framework for adequately addressing these issues is the 7W's: where, who, why, what, whichway, wherewithal, when? 
-Using the 7W's to consolidate the existing information, then sub-iterating in order to sufficiently define the project and bridge any gaps is a useful method to complete this phase.
+Using the 7W's to consolidate the existing information, then sub-iterating in order to sufficiently define the project is a useful method to complete this phase.
 The phase is complete when the project deliverables are fit for purpose.
 
 The \textbf{focus} phase involves scoping the level of analysis required during the E\&D shaping lifecycle stage.
-The generic PUMP is tailored to the specific requirements of the project at hand as captured from the corporate context.
+During this phase, the generic PUMP is tailored to the specific requirements of the project at hand as captured from the corporate context.
 This phase is closely coupled with the define phase.
-The aim is to achieve clarity efficiency by clarifying all working assumptions at an early stage.
+The aim is to achieve clarity efficiency by stating all working assumptions at an early stage.
 The phase ends when the scope, strategy and plan for the tailored PUMP process is fit for purpose.
 
 \begin{figure}[!h]
@@ -104,7 +104,7 @@ The phase ends when the scope, strategy and plan for the tailored PUMP process i
 	\label{Figure:Define}
    } \quad
 \subfigure[Focus Phase Process]{
-    \includegraphics[height = 10cm]{./Figures/Focus.pdf} 
+    \includegraphics[height = 9.3cm]{./Figures/Focus.pdf} 
 	\label{Figure:Focus}
    }
 \caption{Phase process flowcharts - adapted from \cite{chapman}}
@@ -115,19 +115,74 @@ The identification of all sources of uncertainty, relevant response options and 
 This phase has key distinguishing features that are vital to achieve clarity efficiency and to understand all relevant uncertainty and underlying complexity.
 This is considered in detail in section \ref{s:Identify}.
 
-Following the identification of sources of uncertainty, responses and conditions, an understanding of the relative importance of each source can be qualitatively established.
-The results of the \textbf{structure} phase need to be as simple as possible, but not misleadingly so.
-There is a need to deal with underlying complexity, interdependencies and assumptions between sources within this stage.
-Often, complexities are ignored in favour of more well understood sources.
-Unidentified complexity can have large consequences left unchecked.
-This phase contributes to the clarity efficient nature of PUMPs, by allowing the minimising time spent on less important sources.
+Following the identification of sources of uncertainty, responses and conditions, an understanding of their relative importance is qualitatively established in the \textbf{structure} phase.
+This phase contributes to the clarity efficient nature of PUMPs, by maximising the effort expended on issues of perceived importance.
+Responses should also be considered, as early identification of powerful general responses means less effort is required to deal with specific responses.
+Source-response diagrams, decision tress and influence diagrams are all useful tools for this purpose.
+%\inote{Source-response p215 / faulttree chapman1979/ influencediagram p229}
+Failure to deal with underlying complexity, assumptions, interdependencies and detail in this phase could endanger the success of the project.
+Seemingly small details missed in the structure phase represent systematic uncertainty that could lead to later threats or missed opportunities.
+Other key activities are shown in figure \ref{Figure:Structure}.
+
+\begin{figure}[!h]
+  \centering
+    \includegraphics[height = 2.95cm]{./Figures/DecisionTreeChapman79.pdf} 
+\caption{Partial Example probability/decision tree - adapted from \cite{SCERT}}
+\label{Figure:Decisiontree}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+    \includegraphics[width = 0.7\textwidth]{./Figures/Structure.pdf} 
+\caption{Structure Phase Process - adapted from \cite{chapman}}
+\label{Figure:Structure}
+\end{figure}
+
+%\begin{figure}[!h]
+%  \centering
+%\subfigure[Define Phase Process]{
+%    \includegraphics[height = 2cm]{./Figures/DecisionTreeChapman79.pdf} 
+%	\label{Figure:Define}
+%   } \quad
+%\subfigure[Focus Phase Process]{
+%    \includegraphics[height = 10cm]{./Figures/Structure.pdf} 
+%	\label{Figure:Focus}
+%   }
+%\caption{Phase process flowcharts - adapted from \cite{chapman}}
+%\label{Figure:DefineFocus}
+%\end{figure}
 
 The clarify \textbf{ownership} phase allocates financial and managerial responsibility for relevant sources of uncertainty.
 In reality, all sources are allocated to a party whether explicitly or by default.
 The key activities of this stage include developing a contracting strategy, distinguishing ownership and allocating responsibility.
 The aim of the phase is a win-win outcome for all contractual parties, so that client and contractor objectives are aligned.
+\inote{structure and ownership p238 visio diagrams required}
 
-\textbf{Quantify}
+%The key deliverables of \textbf{Quantify}
+%\inote{Quantify phase flowchart required}
+The key deliverable of the \textbf{Quantify} phase is an informed basis for making critical project decisions in the pursuit of opportunity efficiency.
+Clarity efficiency is achieved by sizing the data on the first iteration and decomposing to subsequent levels of detail where necessary in further iterations.
+Probability Impact Grid (PIG) approaches widespread in industry and advocated by best practice.
+PIGs suffer from subjective interpretation of measuring terms as shown in \citet{Merkhofer}, a failure to address uncertainty of other than event uncertainty and granular quantisation of sources \citep{Cox2008}.
+Where objective data is available, probabilistic density functions should be utilised.
+It would be foolish to disregard the expertise of experienced personnel; hence where objective data is unavailable, subjective probabilities could be used.
+The SRI technique published by \citet{spetzer} provides a framework for probability elicitation.
+There are some complexities discussed by \citet{Merkhofer}, including strategic misrepresentation \citep{flyvbjerg} and it remains an inexact science.
+
+\begin{figure}[!h]
+  \centering
+\subfigure[Example 5x5 Pig Approach - adapted from \cite{Cox2008}]{
+    \includegraphics[height = 6cm]{./Figures/PIGCox.pdf} 
+	\label{Figure:PIG}
+   } \quad
+\subfigure[Example Methods of Portraying Probability Density Functions - adapted from \cite{chapman}]{
+    \includegraphics[height = 6cm]{./Figures/Hist.pdf} 
+	\label{Figure:Hist}
+   }
+\caption{Potential Approaches to the Quantification of Data}
+\label{Figure:DefineFocus}
+\end{figure}
+
 
 The \textbf{evaluate} phase involves synthesizing the results of the quantify phase and assessing the statistical significance of results.
 This phase is critical to the successful application of the PUMP process, and consolidates much of the understanding of uncertainty.
