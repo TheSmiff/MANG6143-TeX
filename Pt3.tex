@@ -39,13 +39,20 @@ Any dependence relation between 0-100\% can be achieved by linear interpolation 
 \begin{figure}[!h]
   \centering
 \subfigure[$C_{a}$ and $C_{b}$ probability density functions are identical]{
-    \rule{7cm}{7cm} 
-    %\includegraphics[height = 9.3cm]{./Figures/Focus.pdf}
-	\label{Table:DepVals}
-   } \quad
-\subfigure[Combining $C_{a}$ and $C_{b}$ both independently $C_{i}$ and with positive dependence $C_{p}$]{
-    \rule{7cm}{7cm}
-    %\includegraphics[height = 9.3cm]{./Figures/Focus.pdf} 
+    \includegraphics[width = 0.22\textwidth]{./Figures/costabtab.pdf}
+	\label{Table:DepValsab}
+   }
+\subfigure[$C_{i} = C_{a} + C_{b}$ probability density function assuming independence]{
+    \includegraphics[width = 0.3\textwidth]{./Figures/costitab.pdf}
+	\label{Table:DepValsi}
+   }
+
+\subfigure[$C_{p} = C_{a} + C_{b}$ probability density function assuming positive correlation]{
+    \includegraphics[width = 0.22\textwidth]{./Figures/costptab.pdf}
+	\label{Table:DepValsp}
+   }
+\subfigure[Cumulative probability distributions for the addition of $C_{a}$ and $C_{b}$]{
+    \includegraphics[width = 0.3\textwidth]{./Figures/Dependence.png} 
 	\label{Figure:Dependency}
    }
 \caption{The impacts of independent and positive dependence assumptions - adapted from \cite{chapman}}
