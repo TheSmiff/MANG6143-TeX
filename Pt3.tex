@@ -39,20 +39,20 @@ Any dependence relation between 0-100\% can be achieved by linear interpolation 
 \begin{figure}[!h]
   \centering
 \subfigure[$C_{a}$ and $C_{b}$ probability density functions are identical]{
-    \includegraphics[width = 0.22\textwidth]{./Figures/costabtab.pdf}
+    \includegraphics[width = 0.22\textwidth]{./Figures/Costabtab.pdf}
 	\label{Table:DepValsab}
    }
 \subfigure[$C_{i} = C_{a} + C_{b}$ probability density function assuming independence]{
-    \includegraphics[width = 0.3\textwidth]{./Figures/costitab.pdf}
+    \includegraphics[width = 0.3\textwidth]{./Figures/Costitab.pdf}
 	\label{Table:DepValsi}
    }
-
 \subfigure[$C_{p} = C_{a} + C_{b}$ probability density function assuming positive correlation]{
-    \includegraphics[width = 0.22\textwidth]{./Figures/costptab.pdf}
+    \includegraphics[width = 0.22\textwidth]{./Figures/Costptab.pdf}
 	\label{Table:DepValsp}
    }
+
 \subfigure[Cumulative probability distributions for the addition of $C_{a}$ and $C_{b}$]{
-    \includegraphics[width = 0.3\textwidth]{./Figures/Dependence.png} 
+    \includegraphics[width = 0.65\textwidth]{./Figures/Dependence.pdf} 
 	\label{Figure:Dependency}
    }
 \caption{The impacts of independent and positive dependence assumptions - adapted from \cite{chapman}}
@@ -65,44 +65,41 @@ Sensitivity diagrams are an important tool for conveying and explaining uncertai
 The common phrase ``a picture is worth a thousand words'' is relevant here.
 A sensitivity diagram gives the audience the required information in a non-threatening easy-to-grasp format so that interpretation can take place and issues raised can be resolved.
 
-The sensitivity diagram in figure \ref{Figure:SensDiag} shows the collation of five sources associated with the geotechnical investigations in preparation for the construction of a power station.
+The sensitivity diagram in figure \ref{Figure:SensDiag} shows the collation of six sources associated with a geotechnical investigation project in preparation for the construction of a power station.
 A diagram of this type may be required for each activity in a network.
 The gap between each curve portrays the effect of the labelled source.
-Four is clearly the most important source in this case. 
-The ordering of the sources are important, so that causal and statistical dependence is portrayed by adjacency of sources.
-A maximum of around six sources should be displayed on the diagram to ensure meaning remains clear.
+The final source ``personnel Availability for Processing'' is clearly the most important source in this example, and more effort can be given to addressing this as required. 
+The ordering of the sources are important, so that any causal and statistical dependence is portrayed by adjacency of sources.
+A maximum of around six sources should be displayed on the diagram to ensure the meaning remains clear.
 Less important sources can be combined so that only the most relevant aspects of the story are shown.
 
 \begin{figure}[!h]
   \centering
-  \rule{5cm}{5cm}
-    %\includegraphics[width = \textwidth]{./Figures/ResponseTypes.pdf} 
-\caption{Sensitivity diagram - adapted from \cite{chapman} \& \cite{hopkinson2008}}
+    \includegraphics[width = 0.8\textwidth]{./Figures/Sensitivity_Diagram.pdf} 
+\caption{Sensitivity diagram for geotechnical investigations completion date - adapted from \cite{chapman} \& \cite{hopkinson2008}}
 \label{Figure:SensDiag}
 \end{figure}
 
 It may be useful to expand a sensitivity diagram where schedules are concerned. 
 This can help develop a project strategy that includes realistic milestones and help identify contingency requirements \citep{hopkinson2008}.
-Uncertainty can be decomposed through a number of project milestones and contracting activities.
-This can be displayed alongside a Gantt chart to portray the schedule implications as in figure \ref{Figure:SensDiagGantt}.
+Uncertainty can be decomposed through a number of project milestones and contracting activities, as in figure \ref{Figure:SensDiagGantt}.
+This can be displayed alongside a Gantt chart to portray the schedule implications if this adds to understanding \citep{hopkinson2008}.
 
 \begin{figure}[!h]
   \centering
-  \rule{5cm}{5cm}
-    %\includegraphics[width = \textwidth]{./Figures/ResponseTypes.pdf} 
+    \includegraphics[width = 0.8\textwidth]{./Figures/ScheduleSensitivity.pdf} 
 \caption{Schedule sensitivity diagram - adapted from \cite{hopkinson2008} \& \cite{chapman} }
 \label{Figure:SensDiagGantt}
 \end{figure}
 
 There are alternative forms of sensitivity diagram which may be useful for presenting uncertainty when there are several different parameters involved. 
-One of these is the tornado diagram; a common output from Monte Carlo simulation programs.
+One of these is the tornado diagram, as shown in figure \ref{Figure:Tornado}, a common output from Monte Carlo simulation programs.
 Each parameter is varied in turn whilst the others are held at a constant expected value.
 The sources are then portrayed in order of significance.
 
 \begin{figure}[!h]
   \centering
-  \rule{5cm}{5cm}
-    %\includegraphics[width = \textwidth]{./Figures/ResponseTypes.pdf} 
+    \includegraphics[width = 0.88\textwidth]{./Figures/TornadoFig.pdf} 
 \caption{Tornado diagram - adapted from \cite{hopkinson2008}}
 \label{Figure:Tornado}
 \end{figure}
