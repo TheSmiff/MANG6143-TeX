@@ -14,25 +14,25 @@ Following result synthesis, the results must be presented in the most clarity ef
 This section is not a complete summary of the evaluate phase, but considers some of the tools available for efficient delivery of the phase objectives in some detail, with further areas of consideration in \cite{chapman}.
 
 The phase deliverables may be a simple list of priority sources and responses at early project stages.
-This may be developed further to diagnose issues and suggested revisions to base plans so that specific sources of risk inefficiency are avoided, and to ensure opportunities are captured.
+This may be developed further to diagnose issues and suggest revisions to base plans so that specific sources of risk inefficiency are avoided and to ensure opportunities are captured.
 There are five `modes' of operation of the phase, shown in figure \ref{Figure:Evaluate}.
 
 \begin{figure}[!h]
   \centering
     \includegraphics[width = 0.42\textwidth]{./Figures/Evaluate.pdf} 
-\caption{Evaluate Phase Process - adapted from \cite{chapman}}
+\caption{Evaluate phase process - adapted from \cite{chapman}}
 \label{Figure:Evaluate}
 \end{figure}
 
 Specifying dependence is an important mode of the phase.
-To simplify the approach, many practioners following common practice may assume independence between sources.
-This is an extremely dangerous assumption, and any formal analysis based on this on a non-evidential basis should be immediately discounted.
+To simplify the approach, many practioners following common processes may assume independence between sources.
+This is an extremely dangerous approach, and any formal analysis based on this assumption on a non-evidential basis should be immediately discounted.
 Falsely assuming independence paints an optimistic picture of the circumstances by ignoring the knock-on effects of underlying complexity.
 This can be compounded by over-simplified computational tools that aim to make calculations easier, and by a managerial preference for limited variability. 
 Positive dependence is a more reasonable assumption, making a more conservative, robust assessment of the impacts. 
 In high-clarity contexts, complex statistical and causal dependencies may require more sophisticated modelling approaches to adequately understand the full implications.
 
-The dangers of making false dependency assumptions is shown in the contrast between independent and positive correlation in figure \ref{Figure:ImpactsDependence}.
+The dangers of making false dependency assumptions is shown in the contrast between independent and positive dependence in figure \ref{Figure:ImpactsDependence}.
 Two identical probability functions are combined by addition, showing the difference caused by dependence assumptions.
 Any dependence relation between 0-100\% can be achieved by linear interpolation between the two curves.
 
@@ -46,16 +46,16 @@ Any dependence relation between 0-100\% can be achieved by linear interpolation 
     \includegraphics[width = 0.3\textwidth]{./Figures/Costitab.pdf}
 	\label{Table:DepValsi}
    }
-\subfigure[$C_{p} = C_{a} + C_{b}$ probability density function assuming positive correlation]{
+\subfigure[$C_{p} = C_{a} + C_{b}$ probability density function assuming positive dependence]{
     \includegraphics[width = 0.22\textwidth]{./Figures/Costptab.pdf}
 	\label{Table:DepValsp}
    }
 
 \subfigure[Cumulative probability distributions for the addition of $C_{a}$ and $C_{b}$]{
-    \includegraphics[width = 0.65\textwidth]{./Figures/Dependence.pdf} 
+    \includegraphics[width = 0.62\textwidth]{./Figures/Dependence.pdf} 
 	\label{Figure:Dependency}
    }
-\caption{The impacts of independent and positive dependence assumptions - adapted from \cite{chapman}}
+\caption{The impacts of independence and positive dependence assumptions - adapted from \cite{chapman}}
 \label{Figure:ImpactsDependence}
 \end{figure}
 
@@ -68,14 +68,14 @@ A sensitivity diagram gives the audience the required information in a non-threa
 The sensitivity diagram in figure \ref{Figure:SensDiag} shows the collation of six sources associated with a geotechnical investigation project in preparation for the construction of a power station.
 A diagram of this type may be required for each activity in a network.
 The gap between each curve portrays the effect of the labelled source.
-The final source ``personnel Availability for Processing'' is clearly the most important source in this example, and more effort can be given to addressing this as required. 
+The final source ``personnel availability for processing'' is clearly the most important source in this example, and more effort can be given to addressing this as required. 
 The ordering of the sources are important, so that any causal and statistical dependence is portrayed by adjacency of sources.
 A maximum of around six sources should be displayed on the diagram to ensure the meaning remains clear.
 Less important sources can be combined so that only the most relevant aspects of the story are shown.
 
 \begin{figure}[!h]
   \centering
-    \includegraphics[width = 0.8\textwidth]{./Figures/Sensitivity_Diagram.pdf} 
+    \includegraphics[width = 0.79\textwidth]{./Figures/Sensitivity_Diagram.pdf} 
 \caption{Sensitivity diagram for geotechnical investigations completion date - adapted from \cite{chapman} \& \cite{hopkinson2008}}
 \label{Figure:SensDiag}
 \end{figure}
@@ -87,7 +87,7 @@ This can be displayed alongside a Gantt chart to portray the schedule implicatio
 
 \begin{figure}[!h]
   \centering
-    \includegraphics[width = 0.8\textwidth]{./Figures/ScheduleSensitivity.pdf} 
+    \includegraphics[width = 0.79\textwidth]{./Figures/ScheduleSensitivity.pdf} 
 \caption{Schedule sensitivity diagram - adapted from \cite{hopkinson2008} \& \cite{chapman} }
 \label{Figure:SensDiagGantt}
 \end{figure}
